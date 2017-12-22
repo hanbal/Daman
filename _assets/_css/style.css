@@ -105,6 +105,9 @@ body {
 	text-align: center;
 	margin: 0 auto;
 }
+.contact .wrapper{
+	margin-top: 20px;
+}
 .featured .bullet .wrapper h3 {
 	font-weight: bold;
 	font-style: normal;
@@ -140,14 +143,14 @@ body {
 .energy-solutions{
 	padding-bottom: 40px;
 }
-.energy-solutions h1 {
+.energy-solutions h1, .products h1, .contact h1 {
 	margin-top: 40px;
 	margin-bottom: 15px;
 	font-family: 'News Cycle', sans-serif;
 	font-size: 36px;
 	color: #1e283a;
 }
-.energy-solutions .spacer, .testimonial .spacer{
+.spacer{
 	width: 15%;
 	height: 1px;
 	background: rgb(30, 40, 58);
@@ -224,6 +227,7 @@ body {
 .testimonial{
 	text-align: center;
 	overflow:  hidden;
+	display: table;
 }
 
 .testimonial h1{
@@ -234,14 +238,14 @@ body {
 	
 }
 
+
 .display {
 	font-family: 'News Cycle', sans-serif;
 	color: #fff;
-	background:  url(../_img/testimonials-bg.jpg) no-repeat center;
+	background:  url(../_img/testimonials-bg.jpg) center; 
 	padding-bottom: 60px;
 	padding-top: 30px;
 	min-height: 468px;
-	
 }
 
 .display .wrapper {
@@ -278,47 +282,190 @@ body {
 .clients .wrapper{
 	padding-top: 30px;
 }
-
+.products .wrapper{
+	padding: 30px 0px;
+}
 
 .test {
 	background-color: aqua;
 	height: 100px;
 }
 
-.foter{
+.products {
+	padding-bottom:  50px;
+	animation:  all 0.3;
+}
+.products .product-holder {
+	padding: 30px 10px;
+	min-height: 200px;
+	overflow: hidden;
+}
+.products .product-holder img{
+	border: 1px solid #eee;
+	padding: 30px 50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;	
+}
+
+.products .product-holder:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.products .product-holder h6 {
+	padding-bottom: 15px;
+	font-size: 15px ;
+	font-weight: bold;
+	color: rgb(30, 41, 58);
+}
+.products .product-holder p{
+	font-size:13px;
+	color:#9f9f9f;
+	text-align: justify;
+}
+.products .product-holder table .key{
+	padding-right: 20px;
+	padding-bottom: 5px;
+	font-weight: bolder;
+}
+.products .product-holder .cost{
+	font-weight: bolder;
+	color: rgb(30, 41, 58);
+	font-size: 15px;
+	padding-top: 20px;
+}
+
+.products .product-holder:hover .cost {
+	color: rgb(228,1,46);
+}
+
+.products .product-holder .details{
+	text-align: right;
+}
+.products .product-holder .details a{
+	color: #939393!important;
+	text-decoration: none;
+	padding-top: -10px;
+}
+.products .product-holder .details a:hover{
+	color: rgb(228,1,46)!important;
+}
+
+
+
+
+.clients img {
+	margin: 0 auto;
+	
+}
+.contact .wrapper {
+	margin-top:  10px;
+	margin-bottom: 60px;
+	font-family: 'News Cycle', sans-serif !important;
+
+}
+.contact .bullets{
+	pading-bottom: 30px;
+}
+
+.contact .case {
+	margin:  0 auto;
+	max-width: 300px;
+	margin-top: 40px;
+	min-height: 280px;
+	border: 2px #dddee2 solid!important;
+	padding: 25px 30px;
+}
+
+.contact h2{
+	margin: 0px;
+	font-size: 30px;
+}
+.contact h4{
+	margin: 20px 0px 10px 0px;
+	font-size: 15px;
+}
+.contact h5{
+	font-size: 20px;
+	font-weight: bolder;	
+}
+.contact h6{
+	font-size: 15px;
+	font-weight: bold;	
+}
+.contact p{
+	padding-bottom:  20px;
+	font-family: 'News Cycle', sans-serif !important;
+	color: #7a7a7a;
+		
+}
+
+.contact .case .list-item{
+	padding: 5px 3px;
+	display: flex;
+}
+
+.contact .case .list-item .divider {
+    border-bottom: 1px solid #f1f2f3;
+	-webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+	
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    margin-left: .25em;
+    margin-right: .25em;
+    height: .85em;
+}
+
+.map{
+	width:  100%;
+	height: 350px;
+	
+}
+
+
+
+/********** Footer css starts ***********/
+
+.footer{
 	background-color: #303233;
 	color: aliceblue;
 	
 }
-.foter .img-text{
+.footer .img-text{
 	
 	padding-top: 80px;
 	
 }
-.foter p{
+.footer p{
 	font-size: 17px;
 	
 	padding-bottom: 120px;
 	padding-top: 30px;
 	
 }
-.foter h3{
+.footer h3{
 	margin:25px 35px;
 	 margin-top: 100px;
 	font-weight: bolder;
 	
 }
-.foter ul{
+.footer ul{
 	margin:25px 40px;
 	line-height: 34px;
 	transition: ease-in  .3s;
 
 }
-.foter h3:hover{
+.footer h3:hover{
 	color: red;
 }
 
-.foter li:hover{
+.footer li:hover{
 	color: grey;
 }
 .end{
@@ -341,23 +488,49 @@ body {
 	color: brown;
 	
 }
-/*
-.footer {
-	
-    color:#bdc3c7;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	background-image: url(../_img/foote.PNG);
-	
+
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.display {
+		min-height: 560px;
+	}	
 }
-.footer h3:hover{
-	color: red;
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
 
 }
-.footer .text{
-	padding-top: 20px;
-	
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.energy-solutions{
+		padding-bottom: 70px;
+	}
 
 }
-*/
+
+    /* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.testimonial .display .wrapper{
+		padding: 10px;
+	}
+	.testimonial .display .wrapper p{
+		padding: 0px 10px;
+	}
+
+} 
+
+    /* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	.testimonial .display .wrapper{
+		padding: 10px;
+	}
+
+}
 
