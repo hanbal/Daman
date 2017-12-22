@@ -1,0 +1,363 @@
+/* CSS Document */
+@import url("banner.css");
+/*** Generic cases ***/
+
+.bg-gray {
+	background: rgb(224, 227, 227);
+}
+/***  Generic cases end ***/
+
+
+body {
+	font-family: 'News Cycle', sans-serif !important;
+}
+.top-bar {
+	z-index: 1001;
+	background: rgb(30, 41, 58);
+	color: #fff;
+	padding: 8px 0px;
+}
+.top-bar a i {
+	color: #fff;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.top-bar a i:hover {
+	color: rgb(228,1,46);
+}
+.top-bar p a {
+	text-decoration: none;
+}
+.top-bar p, .top-bar p a {
+	font-size: 12px;
+	margin: 0px;
+	color: #acacac;
+}
+.top-bar p {
+	margin-top: 2px;
+	margin-right: 40px;
+}
+.top-bar p i {
+	color: #fff;
+	margin-right: 5px;
+}
+/*  Header CSS starts here */
+
+.header {
+/*background-color: #0F0;*/
+}
+.navbar-default {
+	background-color: #fff;
+	border-color: #fff;
+}
+.header .toffee {
+	padding: 20px 0px;
+}
+.navbar-nav>li>a {
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	margin-top: -1px;
+	line-height: 1.2;
+	text-align: center;
+	font-size: 14px;
+	color: #1e283a;
+	letter-spacing: 0px;
+	padding-top: 10 px;
+	padding-bottom: 13px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
+	color: #fff !important;
+	background-color: rgb(228,1,46) !important;
+}
+.header .toffee nav .mjs-menu-delimiter {
+	width: 1px;
+	height: 40px;
+	vertical-align: middle;
+	background: url(../_img/dilimiter.png) center center no-repeat;
+}
+.dropdown-menu {
+	background-color: rgb(30, 41, 58);
+}
+.dropdown-menu>li>a {
+	padding: 10px 0px;
+	text-align: center;
+	color: #fff;
+}
+.dropdown-menu>li>a:hover {
+	font-weight: bold;
+	color: #fff;
+	background-color: rgb(228,1,46);
+}
+/*** featured Projects ***/
+.featured {
+	padding-bottom: 40px;
+}
+.featured .bullet {
+	margin-top: 40px;
+}
+.featured .bullet .wrapper {
+	max-width: 370px;
+	background: rgb(30, 41, 58);
+	font-family: 'News Cycle', sans-serif !important;
+	text-align: center;
+	margin: 0 auto;
+}
+.featured .bullet .wrapper h3 {
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.2;
+	font-size: 24px;
+	color: #ffffff;
+	letter-spacing: 0px;
+	padding-top: 20px;
+}
+.featured .bullet .wrapper h3:hover, .featured .bullet .wrapper i:hover {
+	color: #e4022d;
+}
+.featured .bullet .wrapper p {
+	color: #e4022d;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 0px 40px;
+	line-height: 16px;
+}
+.featured .bullet .wrapper i {
+	color: #e4022d;
+	font-size: 28px;
+	color: #ffffff;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.featured .bullet .wrapper img {
+	margin: 0px auto;
+}
+/*** Energy solutions ***/
+
+.energy-solutions{
+	padding-bottom: 40px;
+}
+.energy-solutions h1 {
+	margin-top: 40px;
+	margin-bottom: 15px;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 36px;
+	color: #1e283a;
+}
+.energy-solutions .spacer, .testimonial .spacer{
+	width: 15%;
+	height: 1px;
+	background: rgb(30, 40, 58);
+	margin: 0 auto;
+}
+.energy-solutions .wrapper{
+	margin-top: 40px;
+	text-align: center;
+}
+.energy-solutions .wrapper .img{
+	height: 140px;
+	width: 107px;
+	margin: 0 auto;
+}
+.energy-solutions .wrapper h2{
+	font-weight: normal;
+    font-size: 18px;
+    color: #1e283a;
+}
+.energy-solutions .wrapper a{
+	text-decoration: none;
+}
+.energy-solutions .wrapper p{
+	font-size:13px;
+	color:#9f9f9f;
+	padding: 0px 20px;
+}
+
+
+.energy-solutions .wrapper #unit-1{
+	background: url(../_img/services/unit-1.png) no-repeat center;
+	-webkit-transition: ease-in .3s; /* For Safari 3.1 to 6.0 */
+    transition: ease-in  .3s;
+}
+.energy-solutions .wrapper:hover #unit-1{
+	background: url(../_img/services/unit-1-hover.png) no-repeat center;
+	-webkit-transition: ease-in .3s; /* For Safari 3.1 to 6.0 */
+    transition: ease-in  .3s;
+}
+
+
+
+/*** Intro starts here  ***/
+.intro {
+    color: #ffffff;
+    background-image: url(../_img/intro-bg.jpg);
+    background-position: center center;
+	padding: 24px 0px ; 
+}
+
+.intro h2{
+	font-size:36px;
+	margin-bottom: 0px;
+}
+.intro h3{
+	font-size:24px;
+	margin: 0px;
+	margin-top: 10px;
+
+}
+.intro h3{
+	font-size:24px;
+	margin: 0px;
+	margin-top: 10px;
+
+}
+.intro p{
+	margin-top: 10px;
+	padding: 0px 40px; 
+}
+
+
+
+.testimonial{
+	text-align: center;
+	overflow:  hidden;
+}
+
+.testimonial h1{
+	padding-top: 40px;
+    padding-bottom: 15px;    
+    font-size: 36px;
+	text-transform: uppercase;
+	
+}
+
+.display {
+	font-family: 'News Cycle', sans-serif;
+	color: #fff;
+	background:  url(../_img/testimonials-bg.jpg) no-repeat center;
+	padding-bottom: 60px;
+	padding-top: 30px;
+	min-height: 468px;
+	
+}
+
+.display .wrapper {
+	padding: 10px 50px;
+}
+.testimonial .display .wrapper p{
+	padding-top: 40px;
+	text-align:  justify;
+	font-size: 20px;
+	padding-right: 120px;
+}
+.testimonial .display .wrapper i{
+	padding-top: 40px;
+	text-align:  right;
+	opacity:  0.2;
+	font-size: 50px;
+	padding-bottom:  80px;
+}
+.testimonial .display .spacer{
+	background-color: #fff;	
+}
+.testimonial .display .designation{
+	font-size: 15px!important;
+}
+.testimonial .display .designation strong{
+	color: rgb(228,1,46);
+}
+.clients{
+	padding: 30px 0px;
+}
+.clients h1{
+    color: #1e283a;
+}
+.clients .wrapper{
+	padding-top: 30px;
+}
+
+
+.test {
+	background-color: aqua;
+	height: 100px;
+}
+
+.foter{
+	background-color: #303233;
+	color: aliceblue;
+	
+}
+.foter .img-text{
+	
+	padding-top: 80px;
+	
+}
+.foter p{
+	font-size: 17px;
+	
+	padding-bottom: 120px;
+	padding-top: 30px;
+	
+}
+.foter h3{
+	margin:25px 35px;
+	 margin-top: 100px;
+	font-weight: bolder;
+	
+}
+.foter ul{
+	margin:25px 40px;
+	line-height: 34px;
+	transition: ease-in  .3s;
+
+}
+.foter h3:hover{
+	color: red;
+}
+
+.foter li:hover{
+	color: grey;
+}
+.end{
+	background-color: black;
+}
+.end p{
+	
+	text-align: center;
+	color:#BBBBBB;
+	margin-top: 10px;
+	font-size: 18px;
+}
+.end h5{
+	text-align: center;
+	color:#BBBBBB;
+	margin:11px;
+	
+}
+.end p, h5:hover{
+	color: brown;
+	
+}
+/*
+.footer {
+	
+    color:#bdc3c7;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-image: url(../_img/foote.PNG);
+	
+}
+.footer h3:hover{
+	color: red;
+
+}
+.footer .text{
+	padding-top: 20px;
+	
+
+}
+*/
+

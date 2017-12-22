@@ -1,0 +1,135 @@
+/* CSS Document */
+
+.banner {
+	margin: 0 auto;
+ 	width: 100%;
+	height: 580px;
+
+}
+.banner img{
+	position: absolute;
+	display: block;
+	left: -100%;
+	right: -100%;
+	width: 100%;
+	margin: 0 auto;
+	top: 0;
+	bottom: 0;
+
+}
+.banner_overlay {
+	font-family: 'News Cycle', sans-serif;
+	color: #1e283a;
+	letter-spacing: 0px;
+	background: rgba(255,255,255,0.5);
+	position: absolute;
+	padding: 10px 30px;
+	bottom: 0px;
+	height: 40%;
+	left: 25%;
+	z-index: 900;
+	width: 50%;
+	overflow: hidden!important;
+}
+
+.banner_overlay h1{
+	font-family: inherit;
+	font-size: 72px;
+	font-weight: bold;
+	margin: 0px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	padding-left: 0;
+}
+.banner_overlay h2{
+	font-family: inherit;
+    font-size: 60px;
+	margin: 0px;
+}
+.banner-slider {
+	position: absolute;
+	/* Master height control*/
+	height: 580px;
+	overflow: hidden;
+	width: 100%;
+}
+.banner-slider_nav {
+	position: absolute;
+	z-index: 9999;
+	width: 800px;
+	bottom: 0px;
+	text-align: center;
+	left: 50%;
+	margin-left: -400px;
+	padding-left: 0px;
+	margin-bottom: 20px;
+}
+.banner-slider_nav_item {
+	display: inline;
+}
+.banner-slider_nav_item > a {
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.75);
+	display: inline-block;
+	text-decoration: none;
+	padding: 8px 5px;
+	line-height: 12px;
+}
+
+.banner-slider_nav_item > a:hover {
+	color: rgba(228, 1, 46, 0.5);
+}
+.banner-slider_nav_item--is-selected > a {
+	color: rgba(228, 1, 46, 1);
+}
+.banner_slide {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	bottom: 0px;
+	background-color: #fff;
+}
+.banner_button {
+	margin-top: 10px;
+	padding: 10px 25px;
+	text-decoration: none!important;
+	background-color: rgb(228,1,46);
+	color: #fff;
+	display: inline-block;
+}
+.banner_button:hover {
+	color: #fff;
+
+}
+.cycle_arrow-wrapper {
+	position: absolute;
+	min-height: 250px;
+	width: 100%;
+	top: 40%;
+	z-index: 1001;
+}
+.banner-slider .control-buttons {
+	opacity: 0;
+	transition: opacity 0.2s linear;
+	width: 45px;
+	height: 45px;
+	border-top: 4px solid #fff;
+	border-right: 4px solid #fff;
+	position: absolute;
+	cursor: pointer;
+	z-index: 200;
+	margin: 50px;
+}
+.banner-slider:hover .control-buttons {
+	opacity: 1;
+}
+.cycle_next {
+	right: 2.5%;
+	transform: translateY(-100%) rotate(45deg);
+}
+.cycle_prev {
+	left: 2.5%;
+	transform: translateY(-100%) rotate(-135deg);
+}
+
+/*# sourceMappingURL=main.css.map */
